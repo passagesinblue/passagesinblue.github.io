@@ -1,36 +1,45 @@
 body {
-    background-color: #0000FF;
+    background-color: #ffffff;
 }
+
 h1 {
     color: #484848;
     margin-left: 25px;
     font-family: sans-serif;
 }
 h2 {
-    color: #909090; 
+    color: #505050; 
     margin-top: -25px;
     margin-left: 50px;
     font-family: sans-serif;
 }
 
 h3 {
-    color: #D0D0D0;
+    color: #191970;
     font-style: italic;
-    margin-left: 75px;   
     font-family: serif;
+    text-align: right;
 }
 
 
 p {
-    color: #F5F5F5;
+    color: #00008B;
     font-size: 25px;
     text-indent: 50px;
     font-style: italic;   
     margin: 0px;
     text-align: justify;
     text-justify: inter-word;
-    padding-right: 100px;
-    padding-left: 100px;
     font-family: serif;
-    width: 600px;
 }
+
+#main {
+	background-color:  #f2f2f2;
+	    width: 600px;
+   padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 25px;     
+    padding-bottom: 25px;   
+  
+    border: #1E90FF dotted 10px;
+ }
