@@ -33,13 +33,23 @@ p {
     font-family: serif;
 }
 
-#main {
+.main {
 	background-color:  #f2f2f2;
 	    width: 600px;
    padding-left: 50px;
     padding-right: 50px;
     padding-top: 25px;     
     padding-bottom: 25px;   
-  
-    border: #1E90FF dotted 10px;
+    margin-top: 25px;     
+    margin-bottom: 25px;   
+    border: #1E90FF double 10px;
  }
+
+ img.photos {
+ 	width: 400px;
+     display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-bottom:25px;
+    margin-top: 25px;
+}
