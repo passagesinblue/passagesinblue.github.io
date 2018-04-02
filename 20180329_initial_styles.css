@@ -2,16 +2,35 @@ body {
     background-color: #ffffff;
 }
 
-h1 {
-    color: #484848;
-    margin-left: 25px;
-    font-family: sans-serif;
+#header {
+   background-color: #FF8C00;
+    border: #202020 double 10px;
+	    width: 700px;
 }
+
+
+h1 {
+    color: #F5F5F5;
+    margin-left: 25px;
+    font-family: 'courier', sans-serif;
+    width: 400px;
+    font-size: 25px;
+}
+
 h2 {
-    color: #505050; 
-    margin-top: -25px;
-    margin-left: 50px;
-    font-family: sans-serif;
+    color: #202020; 
+    margin-top: -20px;
+    margin-left: 80px;
+    font-family: 'courier', sans-serif;
+   font-style: italic;
+    border-bottom: #202020 solid 1px;
+    width: 500px;
+    font-size: 20px;
+ }
+
+
+#contentarea {
+
 }
 
 h3 {
@@ -53,3 +72,13 @@ p {
     margin-bottom:25px;
     margin-top: 25px;
 }
+
+video.vids {
+ 	width: 400px;
+     display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-bottom:25px;
+    margin-top: 25px;
+}
+
