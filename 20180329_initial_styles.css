@@ -73,8 +73,9 @@ p {
     margin-top: 25px;
 }
 
-video.vids {
+.vids {
  	width: 400px;
+ 	height: 225px;
      display: block;
     margin-left: auto;
     margin-right: auto; 
